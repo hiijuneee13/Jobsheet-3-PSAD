@@ -23,6 +23,8 @@ public class MataKuliahDemo25 {
             System.out.println("-----------------------------------");
 
             arrayOfMataKuliah[i] = new MataKuliah25(kode, nama, sks, jumlahJam);
+            arrayOfMataKuliah[i].tambahData();
+            System.out.println("--------------------------");
         }
     }
 }

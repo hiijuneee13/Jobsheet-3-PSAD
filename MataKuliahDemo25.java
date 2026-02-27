@@ -23,7 +23,7 @@ public class MataKuliahDemo25 {
         for (int i = 0; i < 3; i++) {
             System.out.println("Data Matakuliah ke-" + (i + 1));
             arrayMataKuliah25[i].cetakInfo();
-            System.out.println("--------------------------");
+            System.out.println("---------------------------");
         }
     }
 }

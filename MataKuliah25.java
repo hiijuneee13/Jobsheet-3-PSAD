@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class MataKuliah25 {
     public String kode;
     public String nama;
@@ -23,5 +24,12 @@ public class MataKuliah25 {
         sks = sc.nextInt();
         System.out.print("Jumlah Jam       : ");
         jumlahJam = sc.nextInt();
+    }
+
+    void cetakInfo() {
+        System.out.println("Kode Matakuliah   : " + kode);
+        System.out.println("Nama Matakuliah   : " + nama);
+        System.out.println("SKS               : " + sks);
+        System.out.println("Jumlah Jam        : " + jumlahJam);
     }
 }
